@@ -4,8 +4,6 @@
  */
 var merge = require('utils-merge');
 
-
-
 /**
  * Simple config function
  */
@@ -26,8 +24,7 @@ exports = module.exports = function createConfig(options){
     if( obj.clone ){
       delete obj.clone;
       copy = merge(config, obj);
-      copy = merge({ }, copy);
-      return createConfig(copy);
+      return createConfig(merge({ }, copy));
     } else if( obj.fork ){
       delete obj.fork;
       return createConfig(merge(config, obj));
