@@ -1,15 +1,13 @@
-<<<<<<< HEAD
-
 /*
  * Module dependency
  */
 var merge = require('utils-merge');
 
+exports = module.exports = createConfig;
+
 /*
  * Simple config function
  */
-
-exports = module.exports = createConfig;
 
 function createConfig(options){
 
@@ -42,28 +40,3 @@ function createConfig(options){
     return this;
   };
 }
-=======
-/**
- * Merge object b with object a.
- *
- *     var a = { foo: 'bar' }
- *       , b = { bar: 'baz' };
- *
- *     merge(a, b);
- *     // => { foo: 'bar', bar: 'baz' }
- *
- * @param {Object} a
- * @param {Object} b
- * @return {Object}
- * @api public
- */
-
-exports = module.exports = function(a, b){
-  if (a && b) {
-    for (var key in b) {
-      a[key] = b[key];
-    }
-  }
-  return a;
-};
->>>>>>> c8b621dc89aeac076af83e417b69fe4f9ee88a8d
