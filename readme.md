@@ -47,6 +47,6 @@ clone();
 
 ## license
 
-[<img alt="LICENSE" src="http://img.shields.io/npm/l/utils-merge.svg?style=flat-square"/>](http://opensource.org/licenses/MIT)
+[<img alt="LICENSE" src="http://img.shields.io/npm/l/utils-config.svg?style=flat-square"/>](http://opensource.org/licenses/MIT)
 
 Copyright (c) 2014 Javier Carrillo <[http://www.stringparser.com/](http://www.stringparser.com/)>
