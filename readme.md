@@ -2,7 +2,7 @@
 
 # utils-config
 
-Simple configuration object maintenance
+lazy object maintenance
 
 ## install
 
