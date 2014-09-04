@@ -1,7 +1,7 @@
 {
   "name": "utils-config",
   "version": "0.1.0",
-  "description": "a simple config function",
+  "description": "lazy object maintenance",
   "author": "Javier Carrillo <stringparser@gmail.com> (http://www.stringparser.com)",
   "repository": {
     "type": "git",
@@ -10,7 +10,9 @@
   "keywords": [
     "util",
     "config",
-    "lazy"
+    "lazy",
+    "fork",
+    "clone"
   ],
   "dependencies": {
     "utils-merge": "^1.0.0"
