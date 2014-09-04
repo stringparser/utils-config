@@ -11,7 +11,7 @@ Simple configuration object maintenance
 ## usage
 
 ```js
-var config = require('./.');
+var config = require('utils-config');
 var proto = {};
 var init = {
   hey : 'want something'
