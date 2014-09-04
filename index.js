@@ -1,15 +1,16 @@
-/*
+
+/**
  * Module dependency
  */
 var merge = require('utils-merge');
 
-exports = module.exports = createConfig;
 
-/*
+
+/**
  * Simple config function
  */
 
-function createConfig(options){
+exports = module.exports = function createConfig(options){
 
   var config = options || { };
 
@@ -39,4 +40,4 @@ function createConfig(options){
 
     return this;
   };
-}
+};
