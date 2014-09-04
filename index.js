@@ -4,11 +4,13 @@
  */
 var merge = require('utils-merge');
 
+exports = module.exports = createConfig;
+
 /**
  * Simple config function
  */
 
-exports = module.exports = function createConfig(options){
+function createConfig(options){
 
   var config = options || { };
 
@@ -37,4 +39,4 @@ exports = module.exports = function createConfig(options){
 
     return this;
   };
-};
+}
