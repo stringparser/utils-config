@@ -1,6 +1,5 @@
 {
-<<<<<<< HEAD
-  "name": "runtime",
+  "name": "utils-config",
   "version": "0.1.0",
   "description": "a simple config function",
   "author": "Javier Carrillo <stringparser@gmail.com> (http://www.stringparser.com)",
@@ -17,53 +16,4 @@
     "utils-merge": "^1.0.0"
   },
   "license": "MIT"
-=======
-  "name": "utils-merge",
-  "version": "1.0.0",
-  "description": "merge() utility function",
-  "keywords": [
-    "util"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/jaredhanson/utils-merge.git"
-  },
-  "bugs": {
-    "url": "http://github.com/jaredhanson/utils-merge/issues"
-  },
-  "author": {
-    "name": "Jared Hanson",
-    "email": "jaredhanson@gmail.com",
-    "url": "http://www.jaredhanson.net/"
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/MIT"
-    }
-  ],
-  "main": "./index",
-  "dependencies": {
-  },
-  "devDependencies": {
-    "mocha": "1.x.x",
-    "chai": "1.x.x"
-  },
-  "engines": {
-    "node": ">= 0.4.0"
-  },
-  "scripts": {
-    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
-  },
-  "testling": {
-    "browsers": [
-      "chrome/latest"
-    ],
-    "harness" : "mocha",
-    "files": [
-      "test/bootstrap/testling.js",
-      "test/*.test.js"
-    ]
-  }
->>>>>>> c8b621dc89aeac076af83e417b69fe4f9ee88a8d
 }
