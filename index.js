@@ -32,7 +32,7 @@ function createConfig(options){
       return createConfig(merge(config, obj));
     }
 
-    if( config[obj] ){
+    if( obj && value ){
       return value ? config[obj] = value : config[obj];
     } else
       merge(config, obj);
