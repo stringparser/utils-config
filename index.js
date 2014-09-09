@@ -1,8 +1,4 @@
 
-/**
- * Module dependency
- */
-var merge = require('utils-merge');
 
 exports = module.exports = createConfig;
 
@@ -40,3 +36,16 @@ function createConfig(options){
     return this;
   };
 }
+
+/**
+ * headless jaredhanson's merge
+ * https://github.com/jaredhanson/utils-merge
+ */
+var merge = function(a, b){
+  if (a && b) {
+    for (var key in b) {
+      a[key] = b[key];
+    }
+  }
+  return a;
+};
