@@ -18,7 +18,7 @@ function createConfig(options){
 
     var copy;
 
-    if( obj === void 0 ){
+    if( obj === void 0 || obj === null ){
       copy = merge({ }, config);
       return copy;
     }
@@ -32,7 +32,7 @@ function createConfig(options){
       return createConfig(merge(config, obj));
     }
 
-    if( obj && value ){
+    if( Object(obj) !== obj ){
       return value ? config[obj] = value : config[obj];
     } else
       merge(config, obj);
